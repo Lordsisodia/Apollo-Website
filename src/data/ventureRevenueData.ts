@@ -20,88 +20,95 @@ export const ventureRevenueData: VentureRevenueData = {
       id: 0,
       ventureName: "🏆 TEAM APOLLO TOTAL",
       teamMembers: ["All Team Members"],
-      revenue: 21689.5, // Total across all ventures
-      netEarnings: 21689.5
+      revenue: 41689.5, // Updated total: £21,689.5 + £20,000 (Sam's Sales)
+      netEarnings: 41689.5
     },
     {
       id: 1,
+      ventureName: "Sam's Sales",
+      teamMembers: ["Sam"],
+      revenue: 20000, // £5K (summer 2024) + £15K (2025)
+      netEarnings: 20000
+    },
+    {
+      id: 2,
       ventureName: "Siso Agency",
       teamMembers: ["Shaan", "Sam"],
       revenue: 9150,
       netEarnings: -13291 // After expenses (software, crypto wallet, travel, salaries)
     },
     {
-      id: 2,
+      id: 3,
       ventureName: "Ripple",
       teamMembers: ["Grace"],
       revenue: 3500,
       netEarnings: 3500 // No expenses recorded
     },
     {
-      id: 3,
+      id: 4,
       ventureName: "Delta (Talent + Sports)",
       teamMembers: ["Jaymie", "Harry", "George"],
       revenue: 2450,
       netEarnings: 1121 // After expenses (£1,053 + £276)
     },
     {
-      id: 4,
+      id: 5,
       ventureName: "Leo Vinted/Carboot",
       teamMembers: ["Leo"],
       revenue: 1801,
       netEarnings: 1801
     },
     {
-      id: 5,
+      id: 6,
       ventureName: "Flippedit",
       teamMembers: ["David"],
       revenue: 1494,
       netEarnings: 1419 // After £75 advertising
     },
     {
-      id: 6,
+      id: 7,
       ventureName: "Logan Vinted",
       teamMembers: ["Logan"],
       revenue: 1000,
       netEarnings: 1000
     },
     {
-      id: 7,
+      id: 8,
       ventureName: "AlexCountX",
       teamMembers: ["Alex K"],
       revenue: 550, // £443 (2024) + £107 (2025)
       netEarnings: 550
     },
     {
-      id: 8,
+      id: 9,
       ventureName: "DorchGarms",
       teamMembers: ["Alex"],
       revenue: 528,
       netEarnings: 338 // After £190 expenses
     },
     {
-      id: 9,
+      id: 10,
       ventureName: "Frat Friday",
       teamMembers: ["Matt", "Shaan", "Leo", "Ares"],
       revenue: 527,
       netEarnings: -340 // After £867 expenses
     },
     {
-      id: 10,
+      id: 11,
       ventureName: "BJ Barbers",
       teamMembers: ["Ben"],
       revenue: 490, // £230 (2024) + £260 (2025)
       netEarnings: 490
     },
     {
-      id: 11,
+      id: 12,
       ventureName: "Alex Gold",
       teamMembers: ["Alex H"],
       revenue: 372.5,
       netEarnings: 372.5
     },
     {
-      id: 12,
+      id: 13,
       ventureName: "Siso Diamonds",
       teamMembers: ["Shaan"],
       revenue: -10400, // Negative cash flow (£10.4K spent, holding assets)
@@ -130,8 +137,8 @@ export const ventureRevenueData: VentureRevenueData = {
   '6m': [
     { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 14200, netEarnings: 14200 },
     { id: 1, ventureName: "Siso Agency", teamMembers: ["Shaan", "Sam"], revenue: 5000, netEarnings: -7000 },
-    { id: 2, ventureName: "Ripple", teamMembers: ["Grace"], revenue: 2500, netEarnings: 2500 },
-    { id: 3, ventureName: "Delta (Talent + Sports)", teamMembers: ["Jaymie", "Harry", "George"], revenue: 1500, netEarnings: 700 },
+    { id: 3, ventureName: "Ripple", teamMembers: ["Grace"], revenue: 2500, netEarnings: 2500 },
+    { id: 4, ventureName: "Delta (Talent + Sports)", teamMembers: ["Jaymie", "Harry", "George"], revenue: 1500, netEarnings: 700 },
     { id: 4, ventureName: "Leo Vinted/Carboot", teamMembers: ["Leo"], revenue: 1200, netEarnings: 1200 },
     { id: 5, ventureName: "Flippedit", teamMembers: ["David"], revenue: 1000, netEarnings: 950 },
     { id: 6, ventureName: "Logan Vinted", teamMembers: ["Logan"], revenue: 700, netEarnings: 700 },
