@@ -54,7 +54,7 @@ export default function LeaderboardPage() {
 
         {/* Chart Section */}
         <div className="leaderboard-page__chart-section">
-          <LeaderboardChart data={ventureRevenueData[selectedPeriod]} />
+          <LeaderboardChart data={ventureRevenueData[selectedPeriod] || []} />
         </div>
 
         {/* Footer Note */}

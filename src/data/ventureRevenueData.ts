@@ -1,4 +1,4 @@
-export type TimePeriod = '1d' | '7d' | '30d' | '3m' | '6m' | '1y' | 'lifetime'
+export type TimePeriod = '1d' | '7d' | '30d' | '3m' | '6m' | '1y' | '3y' | '6y' | '10y' | 'lifetime'
 
 export interface VentureRevenue {
   id: number
@@ -215,5 +215,8 @@ export const timePeriodLabels: Record<TimePeriod, string> = {
   '3m': '3 Months',
   '6m': '6 Months',
   '1y': '1 Year',
+  '3y': '3 Years',
+  '6y': '6 Years',
+  '10y': '10 Years',
   'lifetime': 'Lifetime'
 }

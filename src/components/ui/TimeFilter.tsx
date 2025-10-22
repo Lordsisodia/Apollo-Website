@@ -1,8 +1,8 @@
-import { TimePeriod, timePeriodLabels } from '../../data/leaderboardData'
+import { TimePeriod, timePeriodLabels } from '../../data/ventureRevenueData'
 
 interface TimeFilterProps {
   selectedPeriod: TimePeriod
-  onPeriodChange: (period: TimePeriod) => void
+  onPeriodChange: React.Dispatch<React.SetStateAction<TimePeriod>>
 }
 
 /**
