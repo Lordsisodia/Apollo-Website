@@ -120,7 +120,7 @@ export const ventureRevenueData: VentureRevenueData = {
   // (You can adjust these based on actual monthly breakdowns)
   '1y': [
     { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 36689.5, netEarnings: 36689.5 },
-    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 15000, netEarnings: 15000 },
+    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 15000, netEarnings: 15000 }, // Only 2025 (Oct 24-Oct 25 doesn't include summer 24)
     { id: 2, ventureName: "Siso Agency", teamMembers: ["Shaan", "Sam"], revenue: 9150, netEarnings: -13291 },
     { id: 3, ventureName: "Ripple", teamMembers: ["Grace"], revenue: 3500, netEarnings: 3500 },
     { id: 4, ventureName: "Delta (Talent + Sports)", teamMembers: ["Jaymie", "Harry", "George"], revenue: 2450, netEarnings: 1121 },
@@ -136,8 +136,8 @@ export const ventureRevenueData: VentureRevenueData = {
   ],
 
   '6m': [
-    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 29200, netEarnings: 29200 },
-    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 15000, netEarnings: 15000 },
+    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 24700, netEarnings: 24700 },
+    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 10500, netEarnings: 10500 }, // Apr-Oct 2025 (~70% of £15K)
     { id: 2, ventureName: "Siso Agency", teamMembers: ["Shaan", "Sam"], revenue: 5000, netEarnings: -7000 },
     { id: 3, ventureName: "Ripple", teamMembers: ["Grace"], revenue: 2500, netEarnings: 2500 },
     { id: 4, ventureName: "Delta (Talent + Sports)", teamMembers: ["Jaymie", "Harry", "George"], revenue: 1500, netEarnings: 700 },
@@ -153,8 +153,8 @@ export const ventureRevenueData: VentureRevenueData = {
   ],
 
   '3m': [
-    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 17680, netEarnings: 17680 },
-    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 7500, netEarnings: 7500 },
+    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 16180, netEarnings: 16180 },
+    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 6000, netEarnings: 6000 }, // Jul-Oct 2025 (~40% of £15K)
     { id: 2, ventureName: "Siso Agency", teamMembers: ["Shaan", "Sam"], revenue: 3000, netEarnings: -4000 },
     { id: 3, ventureName: "Ripple", teamMembers: ["Grace"], revenue: 1750, netEarnings: 1750 },
     { id: 4, ventureName: "Delta (Talent + Sports)", teamMembers: ["Jaymie", "Harry", "George"], revenue: 1000, netEarnings: 450 },
@@ -170,8 +170,8 @@ export const ventureRevenueData: VentureRevenueData = {
   ],
 
   '30d': [
-    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 8320, netEarnings: 8320 },
-    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 2500, netEarnings: 2500 },
+    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 7320, netEarnings: 7320 },
+    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 1500, netEarnings: 1500 }, // Last 30 days (~10% of £15K)
     { id: 2, ventureName: "Ripple", teamMembers: ["Grace"], revenue: 1250, netEarnings: 1250 },
     { id: 3, ventureName: "Siso Agency", teamMembers: ["Shaan", "Sam"], revenue: 800, netEarnings: -1500 },
     { id: 4, ventureName: "Delta (Talent + Sports)", teamMembers: ["Jaymie", "Harry", "George"], revenue: 600, netEarnings: 300 },
@@ -187,8 +187,8 @@ export const ventureRevenueData: VentureRevenueData = {
   ],
 
   '7d': [
-    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 2175, netEarnings: 2175 },
-    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 700, netEarnings: 700 },
+    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 1763, netEarnings: 1763 },
+    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 288, netEarnings: 288 }, // Last 7 days (£15K/52 weeks)
     { id: 2, ventureName: "Ripple", teamMembers: ["Grace"], revenue: 350, netEarnings: 350 },
     { id: 3, ventureName: "Siso Agency", teamMembers: ["Shaan", "Sam"], revenue: 250, netEarnings: -400 },
     { id: 4, ventureName: "Leo Vinted/Carboot", teamMembers: ["Leo"], revenue: 180, netEarnings: 180 },
@@ -204,8 +204,8 @@ export const ventureRevenueData: VentureRevenueData = {
   ],
 
   '1d': [
-    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 425, netEarnings: 425 },
-    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 100, netEarnings: 100 },
+    { id: 0, ventureName: "🏆 TEAM APOLLO TOTAL", teamMembers: ["All Team Members"], revenue: 366, netEarnings: 366 },
+    { id: 1, ventureName: "Sam's Sales", teamMembers: ["Sam"], revenue: 41, netEarnings: 41 }, // Last day (£15K/365 days)
     { id: 2, ventureName: "Ripple", teamMembers: ["Grace"], revenue: 80, netEarnings: 80 },
     { id: 3, ventureName: "Siso Agency", teamMembers: ["Shaan", "Sam"], revenue: 50, netEarnings: -80 },
     { id: 4, ventureName: "Leo Vinted/Carboot", teamMembers: ["Leo"], revenue: 40, netEarnings: 40 },
