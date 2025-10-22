@@ -16,14 +16,15 @@ export default function TimeFilter({ selectedPeriod, onPeriodChange }: TimeFilte
 
   return (
     <div className="time-filter">
-      <div className="time-filter__list flex flex-wrap gap-3 justify-center">
+      <div className="time-filter__list flex flex-wrap gap-2 sm:gap-3 justify-center">
         {periods.map((period) => (
           <button
             key={period}
             onClick={() => onPeriodChange(period)}
             className={`
               time-filter__button
-              px-6 py-3 rounded-pill font-medium transition-all duration-300
+              px-3 py-2 sm:px-6 sm:py-3 rounded-pill font-medium transition-all duration-300
+              text-xs sm:text-base
               ${selectedPeriod === period
                 ? 'time-filter__button--active bg-apollo-blue text-white'
                 : 'bg-apollo-gray text-apollo-text-secondary hover:bg-apollo-border hover:text-white'
