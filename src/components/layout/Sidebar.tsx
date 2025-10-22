@@ -4,7 +4,7 @@ import { sidebarContent } from '../../data/content'
 export default function Sidebar() {
   return (
     <aside
-      className="fixed left-10 top-10 bottom-10 w-[355px] z-50"
+      className="hidden lg:fixed lg:left-10 lg:top-10 lg:bottom-10 lg:w-[355px] lg:block z-50"
       aria-label="Sidebar"
     >
       {/* Floating card with rounded corners and shadow */}

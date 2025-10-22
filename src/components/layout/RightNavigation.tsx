@@ -34,7 +34,7 @@ export default function RightNavigation() {
   return (
     <nav
       aria-label="Right navigation"
-      className="fixed right-10 top-1/2 -translate-y-1/2 z-50 bg-[#2a2a2a]/80 backdrop-blur-md rounded-[30px] w-[60px] py-3 flex flex-col items-center gap-5 shadow-xl"
+      className="hidden lg:flex fixed right-10 top-1/2 -translate-y-1/2 z-50 bg-[#2a2a2a]/80 backdrop-blur-md rounded-[30px] w-[60px] py-3 flex-col items-center gap-5 shadow-xl"
     >
       {items.map(({ id, icon: Icon, label }) => (
         <button
